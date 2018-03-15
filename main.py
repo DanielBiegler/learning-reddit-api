@@ -3,7 +3,7 @@ import csv
 
 reddit = praw.Reddit(client_id='YOUR_CLIENT_ID',
                      client_secret='YOUR_CLIENT_SECRET',
-                     user_agent='Script by /u/danielbiegler')
+                     user_agent='Bieglerbot by /u/danielbiegler')
 
 submission = reddit.submission(url='https://www.reddit.com/r/videos/comments/79i4cj/youtube_user_demonstrating_how_facebook_listens/')
 
